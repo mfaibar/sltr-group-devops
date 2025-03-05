@@ -1,0 +1,6 @@
+Command untuk build image:
+docker build -t testing/welcome .
+
+
+Command untuk run container:
+docker run -d -p 8000:5000 testing/welcome
