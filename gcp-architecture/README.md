@@ -108,5 +108,20 @@ Setelah Docker Image tersedia, dideploy ke Kubernetes dengan komponen berikut:
  +-------------+   +----------------+   +----------------+
 ```
 
+---
 
+## **Testing**
+Uji dengan Curl
+Setelah ingress aktif, coba akses endpoint aplikasi dengan curl:
+```
+curl http://welcome.domain.com/welcome/Faisal
+```
+Contoh hasil yang diharapkan:
+```
+Selamat datang Faisal
+```
 
+Jika tanpa nama, hasilnya :
+```
+Selamat datang Anonymous
+```
